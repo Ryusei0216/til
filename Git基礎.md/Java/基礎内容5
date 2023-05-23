@@ -1,0 +1,22 @@
+# Javaレッスン5
+##サイコロプログラムの作成
+- 方法
+- double型(小数点以下の数値を扱うデータ型) + Math.random()メソッドでランダムな値を変数に代入
+- その変数に10をかけ1を足す
+- int型(整数を扱うデータ型)に型変換する
+
+(例)
+public class Main {
+	public static void main(String[] args) {
+    double rand = Math.random() * 10 + 1;
+		int number = (int)rand;
+		System.out.println(number);
+	}
+}
+
+##補足
+- Math.random(): 0~1未満のランダムな値を出力する
+- double型     : 小数点以下の数値を扱うことのできるデータ型 
+- int型        : 整数を扱うことのできるデータ型 
+- 型変換        : データの型を別の型に変えること。double型のデータをint型のデータにする際には小数点以下が切り捨てられる。
+
