@@ -1,0 +1,16 @@
+# Javaレッスン8
+## IF文による条件分岐
+- if (条件式){結果}と言う風に記載する
+### 記載例
+public class Main {
+	public static void main(String[] args) {
+		int number =(int)(Math.random() * 3 + 1);
+		System.out.println("あなたの順位は" + number + "位です");
+		// ここにif文を追加する
+		if (number == 1) {
+		   System.out.println("おめでとう！");
+		}
+	}
+}
+
+- こう記入することで、変数numberが1だった時に、おめでとう！という文章が追加で表示される
